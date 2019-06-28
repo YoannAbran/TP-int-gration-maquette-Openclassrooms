@@ -1,0 +1,36 @@
+body
+{
+	font-family: 'Open Sans'
+}
+
+header p
+{
+	font-size :1.5em;
+}
+header
+{
+	background-image: url(img/1.png);
+	height:1000px;
+}
+#musclelogo
+{
+	text-decoration: underline lightgreen;
+	font-weight: bold;
+}
+#slashgreen
+{
+	color:lightgreen;
+}
+#slashpink
+{
+	color:lightpink;
+}
+#fitcan
+{
+	bottom: 15%;
+	left:10% ;
+}
+#fitcan h3
+{
+	left: 25% ;
+}

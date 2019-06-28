@@ -1,0 +1,46 @@
+Client : la salle de sport « Muscle&co » ;
+
+Expression du besoin : un site vitrine valorisant l'image de la salle de sport et donnant des informations pratiques, pillier de la stratégie marketing digital de l'entreprise.
+
+Projet : Développer l'interface web du site vitrine.
+
+Organisation de l'interface :
+- Le site web doit être responsive ;
+- Il doit se composer :
+-- section (container-fluide) avec une image en background : 
+--- d'une navbar translucide, qui se rétracte en menu hamburger sur les écrans de smartphone ;
+--- un titre et un sous-titre ;
+-- section (container) avec un background vert : 
+--- une row avec 4 colones, texte blanc, pas de background ;
+--- une row avec 2 div : 
+---- la 1ere : avec un sous-titre rose en capital, un titre vert en capital, un logo, un pararagraphe bleu et un lien vert, avec un background blanc,largeur 40% ;
+---- la 2nde : avec une image en background et un lien +logo en bas a droite, largeur 60% ;
+--- une row avec 2 div :
+---- la 1ere : avec une image en background et un lien +logo en bas a gauche,largeur 60% ;
+---- la 2nde : avec un sous-titre rose en capital, un titre vert en capital,un logo, un pararagraphe bleu et un lien vert, avec un background blanc, largeur 40% ;
+-- section (container) avec un background rose ;
+--- une row avec 2 div :
+---- la 1ere : avec une image en background, largeur 40% ;
+---- la 2nd : avec une image en background, un texte blanc en capital en haut gauche et un autre a droite +logo,largeur 60% ;
+--- une row avec 2 div :
+---- la 1ere : avec un sous-titre rose en capital, un titre vert en capital, un logo coin haut droite, un pararagraphe bleu et un lien vert, avec un background blanc,largeur 40% ;
+---- la 2nde : titre en capital et paragraphe en blanc, avec un background vert,largeur 60% ;
+--- une row avec 2 div :
+---- la 1ere : avec une image en background, largeur 60% ;
+---- la 2nde : avec une image en background, largeur 40% ;
+--- une row avec 2 div :
+---- la 1ere : avec un sous-titre rose en capital, un titre vert en capital, un logo coin haut droite, un pararagraphe bleu et un lien vert, avec un background blanc, largeur 60% ;
+---- la 2nde : titre en capital et paragraphe en blanc,un logo coin haut droite, avec un background vert,largeur 40% ;
+-- section (container) avec une image en background :
+--- un titre en capital et un paragraphe blanc centrer ;
+-- section (container) avec un background noir :
+--- une row avec 3 colonnes, texte blanc, derniere colonne contient les logos et liens des réseaux sociaux ;
+--- une row avec 3 colonnes, un formulaire pour le nom, un formulaire pour le mail, et un bouton de validation ; 
+
+
+
+
+Spécifications techniques :
+- maquette au format PSD « Fitness free Photoshop PSD template » by Blaz Robar : http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/ ;
+- Langages web : HTML / CSS / JavaScript ;
+- Framework : Bootstrap ;
