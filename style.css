@@ -9,8 +9,8 @@ header p
 }
 header
 {
-	background-image: url(img/1.png);
-	height:1000px;
+	background: center / cover no-repeat url(img/1.png);
+	height: 100%;
 }
 #musclelogo
 {
@@ -33,4 +33,149 @@ header
 #fitcan h3
 {
 	left: 25% ;
+}
+#allbloc
+{
+	background: rgb(162,202,41);
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 3%;
+	margin: :0;
+}
+#greenpara
+{
+	font-size: 0.7em;
+	padding-bottom: 5%
+	
+}
+#greenpara h1
+{
+	font-size: 1.5em;
+}
+#greenpara a
+{
+	color: white;
+}
+#fitimg
+{
+	background:center / cover no-repeat url(img/3.png);
+	width:100%;
+}
+#fitimg a
+{
+	bottom: 2%;
+	right:3%
+}
+#bodimg
+{
+	background: center / cover no-repeat url(img/2.png);
+	width: 100%;
+	
+}
+#bodimg a
+{
+	bottom: 0;
+	margin:2%;
+}
+#allbloc2
+{
+	background: rgb(254,99,79);
+	padding-right: 10%;
+	padding-left: 10%;
+	margin:0;
+	font-size: 0.9em;
+}
+#runimg
+{
+	background: center / cover no-repeat url(img/8.png);
+	width:33%;
+	height: 22em;
+}
+#surfimg
+{
+	background: center / cover no-repeat url(img/5.png);
+	width:75%;
+	height: 22em;
+}
+#surf
+{
+	background: rgb(162,202,41);
+	width:75%;
+	box-shadow: 0 15px 10px black;
+}
+#run
+{
+	width:24.8%;
+}
+#raisinimg
+{
+	background: center / cover no-repeat url(img/7.png);
+	width:74%;
+	height: 20em;
+}
+#mangueimg
+{
+	background: center / cover no-repeat url(img/6.png);
+	width:33%;
+	height: 20em;
+}
+#mangue
+{
+	background: rgb(162,202,41);
+	width:37.6%;
+	box-shadow: 0 15px 10px black;
+}
+#raisin
+{
+	width: 75%;
+}
+#endbg
+{
+	background: center / cover no-repeat url(img/4.png);
+	width:100%;
+	height:50em;
+	padding :10% 25% 40% 25%;
+}
+footer
+{
+	background: rgb(13,17,26);
+	font-size: 0.8em;
+}
+h1
+{
+	font-size: 1.5em;
+}
+h2
+{
+	font-size: 1.2em;
+}
+
+#reseaux img
+{
+    text-align: center ;
+    margin-right: 8px;
+}
+#foot
+{
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+#about
+{
+	width: 45%;
+	text-align: justify;
+	margin:2%;
+}
+#reseaux
+{
+	width: 30%;
+	text-align: justify;
+	margin:2%;
+}
+#resfoot
+{
+	width: 30%;
+	text-align: justify;
+	margin:2%;	
 }
