@@ -5,13 +5,15 @@
 	 <meta name="author" lang="fr" content="Yoann ABRAN">
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	 <link rel=stylesheet href="style.css"/>
 </head>
 <body>
 
 	<header class="position-relative d-flex justify-content-between min-vh-100">
 		
-		<p class="text-white text-uppercase font-weight-bold mt-4 ml-5 "><span id="musclelogo">Muscle</span>&co</p>
+		<p class="text-white text-uppercase font-weight-bold mt-4 ml-5 "><i class="material-icons md-48 rouge">opacity</i><span id="musclelogo">Muscle</span>&co</p>
 		
 		<div id="fitcan" class=" position-absolute ">
 			<h1 class="text-uppercase text-white">
@@ -47,58 +49,64 @@
 	</header>
 	
 	<section id="allbloc">
-		<section id="greenpara" class="container-fluid d-flex bd-highlight justify-content-between text-white text-justify">
+		<section id="greenpara" class="container-fluid row col-lg-12 text-white text-justify">
 			
-			<div id="res" class="mr-5">
+			<div id="res" class="col-lg-3">
+				<i class="material-icons md-light md-36">work</i>
 				<h1>Ressources</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 						<a href="#">Explorer</a>
 			</div>
 
-			<div id="form" class="mr-5">
+			<div id="form" class="col-lg-3">
+				<i class="material-icons md-light md-36">timer</i>
 				<h1>Entrainement et financement</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 						<a href="#">Entrainement</a>
 			</div>
 
-			<div id="con" class="mr-5">
+			<div id="con" class="col-lg-3">
+				<i class="material-icons md-light md-36">cloud</i>
 				<h1>Connexion</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 						<a href="#">Connexion</a>
 			</div>
 
-			<div id="com" class="">
+			<div id="com" class="col-lg-3">
+				<i class="material-icons md-light md-36">sms</i>
 				<h1>Communication</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 						<a href="#">Demarrer</a>
 			</div>
 
 		</section>
-		<section id="green3" class="d-flex flex-column " >
+		<section id="green3" class="col-lg-12 " >
 			
-			<div id="bloc1"class="d-flex bg-white">
-				<div id="fit1" class="w-25 text-center m-5 ">
-					<h2 class="text-danger text-uppercase">Il s'agit d'abord </h2>
+			<div id="bloc1"class="container-fluid row col-lg-12 bg-white">
+				<div id="fit1" class="text-center col-lg-4 ">
+					<h2 class="text-danger text-uppercase mt-5">Il s'agit d'abord </h2>
 						<h1 class="text-success text-uppercase">De fitness</h1>
-							<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
+							<i class="material-icons vert">opacity</i>
+							<p class="text-secondary m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 								<a href="#" class="text-success">Voir plus</a>
 				</div>
 				
-				<div id="fitimg" class="w-75 position-relative ">
-					<a href="#" class="text-danger position-absolute ">Utilisateurs actifs <span class="text-white">(35)</span></a>
+				<div id="fitimg" class="col-lg-8 position-relative ">
+					<a href="#" class="text-danger position-absolute ">Utilisateurs actifs <span class="text-white">(35)</span><i class="material-icons rouge">opacity</i></a>
 				
 				</div>
 			</div>
 			
-			<div id="bloc2" class="d-flex  bg-white">
+			<div id="bloc2" class="container-fluid row col-lg-12 bg-white">
 			
-				<div id="bodimg" class="w-75 position-relative ">
-					<a href="#" class="text-white position-absolute">Produit utiliser <span>(625)</span></a>
+				<div id="bodimg" class="col-lg-8 position-relative ">
+					<a href="#" class="text-white position-absolute">Produit utiliser <span>(625)</span><i class="material-icons rouge">opacity</i></a>
 				</div>
 			
-				<div id="bod" class="w-25 text-center m-5">
-					<h2 class="text-danger text-uppercase">Aime</h2>
-						<h1 class="text-success text-uppercase">Ton corps</h1>
+				<div id="bod" class="col-lg-4 text-center ">
+					<h2 class="text-danger text-uppercase mt-5">Aime</h2>
+						<h1 class="text-success text-uppercase m-2">Ton corps</h1>
+							<i class="material-icons vert">opacity</i>
 							<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 								<a href="#"class="text-success">Voir plus</a>
 						
@@ -106,43 +114,43 @@
 			</div>
 		</section>
 	</section>
-	<section id="allbloc2" class="d-flex flex-column ">
+	<section id="allbloc2" class=" col-lg-12 ">
 		
-		<section id="bloc3">
-			<div id="pinkimg1" class="d-flex">
-				<div id="runimg" class=""></div>
-				<div id="surfimg" class="d-flex justify-content-between">
+		<section id="bloc3" class=" col-lg-12">
+			<div id="pinkimg1" class="container-fluid row col-lg-12">
+				<div id="runimg" class="col-lg-4"></div>
+				<div id="surfimg" class="col-lg-8 d-flex justify-content-between">
 					<p class="m-5 text-uppercase text-white">24 Aout</p>
-					<p class="m-5 text-uppercase text-white">Santé et fitness</p>
+					<p class="m-5 text-uppercase text-white">Santé et fitness<i class="material-icons md-light">local_offer</i></p>
 				</div>
 			</div>
-			<div id="pinktxt1" class="d-flex bg-white ">
-				<div id="run" class="text-justify m-5">
-					<h2 class="text-danger text-uppercase">Suivre son </h2>
-					<h1 class="text-success text-uppercase">Style de vie</h1>
-					<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<div id="pinktxt1" class="container-fluid row col-lg-12 bg-white ">
+				<div id="run" class="text-justify col-lg-4 ">
+					<h2 class="text-danger text-uppercase m-3">Suivre son </h2><i id="person" class="d-flex material-icons md-light md-48">person</i> 
+					<h1 class="text-success text-uppercase m-3">Style de vie</h1>
+					<p class="text-secondary m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 				</div>
-				<div id="surf" class="text-justify text-white">
-					<h1 class="m-5 text-uppercase">été fun</h1>
-					<p class="m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<div id="surf" class="text-justify text-white col-lg-8">
+					<h1 class="m-4 text-uppercase">été fun</h1>
+					<p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 				</div>
 			</div>
 		</section>
 		
-		<section id="bloc4">
-			<div id="pinkimg2" class="d-flex ">
-				<div id="raisinimg" class=""></div>
-				<div id="mangueimg" class=""></div>
+		<section id="bloc4" class="col-lg-12">
+			<div id="pinkimg2" class="container-fluid row col-lg-12 ">
+				<div id="raisinimg" class="col-lg-8"></div>
+				<div id="mangueimg" class="col-lg-4"></div>
 			</div>
-			<div id="pinktxt2" class="d-flex bg-white ">
-				<div id="raisin" class="text-justify m-5 ">
-					<h2 class="text-danger text-uppercase">Suivre son</h2>
-					<h1 class="text-success text-uppercase">Implication sois-même </h1>
-					<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<div id="pinktxt2" class="container-fluid row col-lg-12 bg-white ">
+				<div id="raisin" class="text-justify col-lg-8 ">
+					<h2 class="text-danger text-uppercase m-3">Suivre son</h2><i id="restaurant" class="d-flex material-icons md-light md-48">restaurant</i>
+					<h1 class="text-success text-uppercase m-3">Implication sois-même </h1>
+					<p class="text-secondary m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 				</div>
-				<div id="mangue" class="text-justify text-white">
-					<h1 class="m-5 text-uppercase">Améliore tes habitides alimentaires</h1>
-					<p class="m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus.</p>
+				<div id="mangue" class="text-justify text-white col-lg-4">
+					<h1 class="m-4 text-uppercase">Améliore tes habitides alimentaires</h1><i id="local_dining" class="d-flex material-icons md-light md-48">local_dining</i>
+					<p class="m-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus.</p>
 				</div>
 			</div>
 		</section>

@@ -1,8 +1,48 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.rouge {color:red;}
+.material-icons.vert {color:lightgreen;}
+#person,#restaurant,#local_dining
+{
+	justify-content:flex-end;
+}
+
+
+
 body
 {
 	font-family: 'Open Sans'
 }
-
+.row
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 header p
 {
 	font-size :1.5em;
@@ -60,17 +100,27 @@ header
 {
 	background:center / cover no-repeat url(img/3.png);
 	width:100%;
+	height: 22em;
 }
 #fitimg a
 {
 	bottom: 2%;
 	right:3%
 }
+#fit1
+{
+	box-shadow: 0 15px 10px black;
+}
 #bodimg
 {
 	background: center / cover no-repeat url(img/2.png);
 	width: 100%;
+	height: 22em;
 	
+}
+#bod
+{
+	box-shadow: 0 15px 10px black;
 }
 #bodimg a
 {
@@ -88,46 +138,50 @@ header
 #runimg
 {
 	background: center / cover no-repeat url(img/8.png);
-	width:33%;
+	width:100%;
 	height: 22em;
 }
 #surfimg
 {
 	background: center / cover no-repeat url(img/5.png);
-	width:75%;
+	width:100%;
 	height: 22em;
 }
 #surf
 {
 	background: rgb(162,202,41);
-	width:75%;
+	width:100%;
+	height: 22em;
 	box-shadow: 0 15px 10px black;
 }
 #run
 {
-	width:24.8%;
+	width:100%;
+	height: 22em;
 }
 #raisinimg
 {
 	background: center / cover no-repeat url(img/7.png);
-	width:74%;
-	height: 20em;
+	width:100%;
+	height: 22em;
 }
 #mangueimg
 {
 	background: center / cover no-repeat url(img/6.png);
-	width:33%;
-	height: 20em;
+	width:100%;
+	height: 22em;
 }
 #mangue
 {
 	background: rgb(162,202,41);
-	width:37.6%;
+	width:100%;
+	height: 22em;
 	box-shadow: 0 15px 10px black;
 }
 #raisin
 {
-	width: 75%;
+	width: 100%;
+	height: 22em;
 }
 #endbg
 {
