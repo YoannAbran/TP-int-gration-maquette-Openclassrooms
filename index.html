@@ -11,23 +11,20 @@
 </head>
 <body>
 
-	<header class="position-relative d-flex justify-content-between min-vh-100">
+	<header class="position-relative d-flex justify-content-between  min-vh-100">
 		
-		<p class="text-white text-uppercase font-weight-bold mt-4 ml-5 "><i class="material-icons md-48 rouge">opacity</i><span id="musclelogo">Muscle</span>&co</p>
+		<section class=" col-lg-12">
+            <div class="container-fluid row col-lg-12">
+        <p class="text-white text-uppercase font-weight-bold h-25 col-lg-4    "><i class="material-icons md-48 rouge">opacity</i><span id="musclelogo">Muscle</span>&co</p>
 		
-		<div id="fitcan" class=" position-absolute ">
-			<h1 class="text-uppercase text-white">
-				fitness in a can <span id="slashgreen">/</span>
-			</h1>
-			<h3 class="text-uppercase text-white position-absolute">
-				yes you can <span id="slashpink">/</span>
-			</h3>
-		</div>
-
-
-
-		<div >
-			<ul class="nav justify-content-end text-uppercase text-white mt-4">
+		
+        <nav class="navbar navbar-expand-lg  d-flex align-items-start lg-justify-content-end navbar-dark  col-lg-8 ">
+            
+  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+		<div class="collapse navbar-collapse  justify-content-end" id="navbarNav" >
+			<ul class="nav  text-uppercase text-white mt-4">
 			    <li class="nav-item">
 			    	<a class="nav-link active text-white" href="#">A propos</a>
 			    </li>
@@ -45,7 +42,17 @@
 			   	 </li>
 			</ul>
 		</div>
-
+        </nav>
+                </div>
+       </section>
+        <div id="fitcan" class=" position-absolute ">
+			<h1 class="text-uppercase text-white">
+				fitness in a can <span id="slashgreen">/</span>
+			</h1>
+			<h3 class="text-uppercase text-white position-absolute">
+				yes you can <span id="slashpink">/</span>
+			</h3>
+		</div>
 	</header>
 	
 	<section id="allbloc">
@@ -162,17 +169,19 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 	</section>
 
-	<footer class="text-white d-flex flex-column ">
+	<footer class="text-white   ">
 		<section id="foot">
-		<section  class="d-flex">
-			<div id="resfoot"><h1>Ressources</h1>
+		<section  >
+            <div class="container-fluid row col-lg-12">
+			<div class="col-lg-4" id="resfoot"><h1>Ressources</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p>
 			</div>
-			<div id="about"><h1>A propos de nous</h1>
+			<div class="col-lg-4" id="about"><h1>A propos de nous</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem.</p></div>
-			<div id="reseaux"><h1>Reseaux sociaux</h1>
+			<div class="col-lg-4" id="reseaux"><h1>Reseaux sociaux</h1>
 					<p><a href="#"><img src="img/fb.png" alt="Facebook" ></a><a href="#"><img src="img/twit.png" alt="Twitter"></a><a href="#"><img src="img/vim.png"alt="Vimeo"></a><a href="#"><img src="img/rss.png" alt="Rss" ></a></p>
 			</div>
+                </div>
 		</section>
 			<div id="forms"class="form-group d-flex justify-content-end ">
 				<input type="label" class=" d-flex form-control w-25 m-2" placeholder="Entrer Nom"   id="Nom">
